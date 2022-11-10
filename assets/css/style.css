@@ -127,22 +127,7 @@
 
 a { text-decoration: none; }
 
-a:link {
-    color:var(--onyx);
-    text-decoration:underline;
-    }
-    a:visited {
-    color:var(--onyx);
-    text-decoration:none;
-    }
-    a:hover {
-    color:var(--onyx);
-    text-decoration:none;
-    }
-    a:active {
-    color:var(--onyx);
-    text-decoration:none;
-    }
+
 
 li { list-style: none; }
 
@@ -185,7 +170,7 @@ body { background: var(--ff-poppins); }
 .sidebar,
 article {
   background: var(--ff-poppins);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--white-2);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -260,6 +245,29 @@ article.active {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
 }
+
+
+.h5:hover {
+  color:var(--orange-yellow-crayola);
+    text-decoration:none;
+}
+
+a:link {
+    color:var(--onyx);
+    text-decoration:underline;
+    }
+    a:visited {
+    color:var(--onyx);
+    text-decoration:none;
+    }
+    a:hover {
+    color:var(--orange-yellow-crayola);
+    text-decoration:none;
+    }
+    a:active {
+    color:var(--onyx);
+    text-decoration:none;
+    }
 
 .article-title {
   position: relative;
