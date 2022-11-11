@@ -1091,7 +1091,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--white-2);
+  background: var(--border-gradient-onyx);
   z-index: -1;
 }
 
@@ -1122,7 +1122,7 @@ main {
 }
 
 .blog-meta :is(.blog-category, time) {
-  color: var(--white);
+  color: var(--border-gradient-onyx);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
